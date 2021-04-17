@@ -1,0 +1,157 @@
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS
+$ git clone https://github.com/KarthicK43/aws_django.git
+Cloning into 'aws_django'...
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), 1.57 KiB | 229.00 KiB/s, done.
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS
+$ cd aws_django/
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitattributes
+        LICENSE
+        Procfile
+        SECURITY.md
+        conceptu/
+        manage.py
+        products/
+        requirements.txt
+        users/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git add -A
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git commit -m "First Commit"
+[main 7bd7819] First Commit
+ 56 files changed, 26147 insertions(+), 26 deletions(-)
+ create mode 100644 .gitattributes
+ create mode 100644 LICENSE
+ create mode 100644 Procfile
+ create mode 100644 SECURITY.md
+ create mode 100644 conceptu/__init__.py
+ create mode 100644 conceptu/settings.py
+ create mode 100644 conceptu/urls.py
+ create mode 100644 conceptu/wsgi.py
+ create mode 100644 manage.py
+ create mode 100644 products/__init__.py
+ create mode 100644 products/admin.py
+ create mode 100644 products/apps.py
+ create mode 100644 products/forms.py
+ create mode 100644 products/migrations/0001_initial.py
+ create mode 100644 products/migrations/__init__.py
+ create mode 100644 products/models.py
+ create mode 100644 products/static/css/bootstrap-grid.css
+ create mode 100644 products/static/css/bootstrap-grid.css.map
+ create mode 100644 products/static/css/bootstrap-grid.min.css
+ create mode 100644 products/static/css/bootstrap-grid.min.css.map
+ create mode 100644 products/static/css/bootstrap-reboot.css
+ create mode 100644 products/static/css/bootstrap-reboot.css.map
+ create mode 100644 products/static/css/bootstrap-reboot.min.css
+ create mode 100644 products/static/css/bootstrap-reboot.min.css.map
+ create mode 100644 products/static/css/bootstrap.css
+ create mode 100644 products/static/css/bootstrap.css.map
+ create mode 100644 products/static/css/bootstrap.min.css
+ create mode 100644 products/static/css/bootstrap.min.css.map
+ create mode 100644 products/static/css/style.css
+ create mode 100644 products/static/js/bootstrap.bundle.js
+ create mode 100644 products/static/js/bootstrap.bundle.js.map
+ create mode 100644 products/static/js/bootstrap.bundle.min.js
+ create mode 100644 products/static/js/bootstrap.bundle.min.js.map
+ create mode 100644 products/static/js/bootstrap.js
+ create mode 100644 products/static/js/bootstrap.js.map
+ create mode 100644 products/static/js/bootstrap.min.js
+ create mode 100644 products/static/js/bootstrap.min.js.map
+ create mode 100644 products/static/js/jquery.min.js
+ create mode 100644 products/templates/products/base.html
+ create mode 100644 products/templates/products/product_confirm_delete.html
+ create mode 100644 products/templates/products/product_detail.html
+ create mode 100644 products/templates/products/product_form.html
+ create mode 100644 products/templates/products/product_list.html
+ create mode 100644 products/tests.py
+ create mode 100644 products/urls.py
+ create mode 100644 products/views.py
+ create mode 100644 requirements.txt
+ create mode 100644 users/__init__.py
+ create mode 100644 users/admin.py
+ create mode 100644 users/apps.py
+ create mode 100644 users/migrations/__init__.py
+ create mode 100644 users/models.py
+ create mode 100644 users/tests.py
+ create mode 100644 users/views.py
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com': KarthicK43
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://KarthicK43@github.com':
+Enumerating objects: 66, done.
+Counting objects: 100% (66/66), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (58/58), done.
+Writing objects: 100% (63/63), 471.87 KiB | 4.41 MiB/s, done.
+Total 63 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), completed with 1 local object.
+To https://github.com/KarthicK43/aws_django.git
+   83e2616..7bd7819  main -> main
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   products/templates/products/base.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git add products/templates/products/base.html
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git commit -m "Name changed"
+[main 4f41e54] Name changed
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+mEnumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 488 bytes | 488.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/KarthicK43/aws_django.git
+   7bd7819..4f41e54  main -> main
+
+
+KarthicK@LAPTOP-PH6L8QM7 MINGW64 /d/Documents/AWS/aws_django (main)
+$
